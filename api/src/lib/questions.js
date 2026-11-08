@@ -153,7 +153,7 @@ const questions = [
       'Con la consola del navegador',
       'Con GitHub Actions'
     ],
-    answer: 1,
+    answer: 9,
     explanation:
       'Las funciones administradas no aparecen como un recurso aparte: viven dentro de la Static Web App y se monitorean con Application Insights, que registra cada invocación.'
   }
