@@ -142,6 +142,20 @@ const questions = [
     answer: 1,
     explanation:
       'Static Web Apps crea un entorno de staging por Pull Request (el plan Free permite unos pocos simultáneos). Al cerrar el PR, el job "close" lo elimina.'
+  },
+  {
+    id: 'q11',
+    concept: 'Monitoreo',
+    text: '¿Con qué servicio se observan las invocaciones, la duración y los errores de las funciones administradas?',
+    options: [
+      'Con un recurso Function App que aparece en el portal',
+      'Con Application Insights',
+      'Con la consola del navegador',
+      'Con GitHub Actions'
+    ],
+    answer: 1,
+    explanation:
+      'Las funciones administradas no aparecen como un recurso aparte: viven dentro de la Static Web App y se monitorean con Application Insights, que registra cada invocación.'
   }
 ];
 
